@@ -1,0 +1,22 @@
+header {
+  color: white;
+  background-color: #03522d;
+  border: 1px solid;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+h2,
+h3 {
+  color: rgba(7, 48, 135, 0.8);
+}
+
+footer {
+  background-color: #03522d;
+  color: red;
+  font-size: 15px;
+  border: 1px solid;
+  border-radius: 10px;
+  padding-top: 20px;
+}
