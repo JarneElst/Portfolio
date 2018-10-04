@@ -5,6 +5,8 @@ header {
   border-radius: 10px;
   padding-top: 10px;
   padding-left: 15px;
+  font-family: Didot, Big Caslon, Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
 }
 
 h2,
@@ -19,4 +21,9 @@ footer {
   border: 1px solid;
   border-radius: 10px;
   padding-top: 20px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
