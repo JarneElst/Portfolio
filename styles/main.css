@@ -1,29 +1,60 @@
 header {
-  color: white;
-  background-color: #03522d;
+  color: #4b3e33;
+  background-color: #557a95;
   border: 1px solid;
   border-radius: 10px;
   padding-top: 10px;
   padding-left: 15px;
-  font-family: Didot, Big Caslon, Georgia, "Times New Roman", Times, serif;
-  font-size: 20px;
+  font-family: "Lato", Sans serif;
+  font-size: 15px;
+  text-align: Right;
+}
+
+#titel {
+  font-family: "Libre Baskerville", Serif;
+  font-size: 30px;
+  text-align: Left;
 }
 
 h2,
 h3 {
-  color: rgba(7, 48, 135, 0.8);
+  color: #5d5c61;
+}
+
+body {
+  font-family: "Lato", Sans serif;
+  font-size: 16px;
 }
 
 footer {
-  background-color: #03522d;
-  color: red;
-  font-size: 15px;
+  color: #4b3e33 !important;
+  background-color: #557a95;
+  font-size: 1.5em;
   border: 1px solid;
   border-radius: 10px;
   padding-top: 20px;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+#socialmedia {
+  display: inline;
+}
+
+a:link {
+  color: #4b3e33 !important;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #4b3e33 !important;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5d5c61 !important;
+  text-decoration: none;
+}
+
+a:active {
+  color: #4b3e33 !important;
+  text-decoration: none;
 }
