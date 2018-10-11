@@ -1,5 +1,5 @@
 header {
-  color: #4b3e33;
+  color: #3c3026;
   background-color: #557a95;
   border: 1px solid;
   border-radius: 10px;
@@ -27,7 +27,7 @@ body {
 }
 
 footer {
-  color: #4b3e33 !important;
+  color: #3e3228 !important;
   background-color: #557a95;
   font-size: 1.5em;
   border: 1px solid;
@@ -40,21 +40,21 @@ footer {
 }
 
 a:link {
-  color: #4b3e33 !important;
+  color: #3e3228 !important;
   text-decoration: none;
 }
 
 a:visited {
-  color: #4b3e33 !important;
+  color: #3e3228 !important;
   text-decoration: none;
 }
 
 a:hover {
-  color: #5d5c61 !important;
+  color: #3e3228 !important;
   text-decoration: none;
 }
 
 a:active {
-  color: #4b3e33 !important;
+  color: #3e3228 !important;
   text-decoration: none;
 }
