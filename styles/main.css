@@ -14,11 +14,16 @@ header {
   font-family: "Libre Baskerville", Serif;
   font-size: 30px;
   text-align: Left;
+  text-decoration: none;
 }
 
 h2,
 h3 {
   color: #5d5c61;
+}
+
+abbr {
+  text-decoration: none;
 }
 
 body {
@@ -33,10 +38,6 @@ footer {
   border: 1px solid;
   border-radius: 10px;
   padding-top: 20px;
-}
-
-#socialmedia {
-  display: inline;
 }
 
 a:link {
@@ -59,8 +60,14 @@ a:active {
   text-decoration: none;
 }
 
+.avatar {
+  width: 115px;
+  height: 230px;
+}
+
 .logo {
-  height: 30px;
   width: 30px;
+  height: 30px;
+  margin-bottom: 0px;
   display: inline-block;
 }
