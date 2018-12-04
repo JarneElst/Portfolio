@@ -1,0 +1,147 @@
+* {
+  font-size: 100%;
+  margin: 0px;
+}
+
+main {
+  margin-top: 100px;
+}
+
+body {
+  font-size: 0.9rem;
+  font-family: "Lato", sans-serif;
+}
+
+h2 {
+  color: #5d5c61;
+  font-size: 1.4rem;
+}
+
+h3 {
+  color: #5d5c61;
+  font-size: 1.2rem;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+abbr {
+  text-decoration: none;
+}
+
+figure {
+  margin: 0px;
+  display: inline;
+}
+
+.hoofding {
+  color: #ebe5e5;
+  background-color: #272626;
+  border: 1px solid #272626;
+  font-family: "Libre Baskerville", Serif;
+  height: 60px;
+  width: 100%;
+  padding: 10px;
+  top: 0px;
+}
+
+.navigatie {
+  display: inline;
+  position: absolute;
+  list-style: none;
+  padding: 0 10px;
+  font-size: 1.1rem;
+  right: 30px;
+  top: 20px;
+  text-decoration: none;
+}
+
+.lijstitems {
+  display: inline;
+  margin-right: 10px;
+  padding-right: 5px;
+  border-right: 1px solid;
+}
+
+.lijstitems:last-of-type {
+  border-right: none;
+  padding-right: 30px;
+}
+
+.centreren {
+  margin: 0% 25% 2% 25%;
+  font-family: "Lato", Sans Serif;
+  text-align: justify;
+  line-height: 1.5rem;
+  position: static;
+}
+
+.achtergrond {
+  background-color: #272626;
+  color: #dacece;
+  padding-top: 10px;
+}
+
+.voettekst {
+  color: #ebe5e5;
+  background-color: #272626;
+  border: 1px solid #272626;
+  text-align: center;
+  margin: 0px;
+  padding: 15px 0px;
+  font-family: "Libre Baskerville", Serif;
+}
+
+.socialmedia {
+  width: 30px;
+  height: 30px;
+  margin: 0px;
+}
+
+#titel {
+  font-family: "Libre Baskerville", Serif;
+  font-size: 2rem;
+  text-align: left;
+  display: inline;
+}
+
+/* Opmaak linken */
+a:link {
+  color: #ebe5e5;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ebe5e5;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #918b87;
+  text-decoration: none;
+  transition-delay: 0.1s;
+}
+
+#titel a:hover {
+  text-decoration: none;
+  color: #ebe5e5;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #ebe5e5;
+  font-size: 100%;
+}
+
+a:active {
+  color: #ebe5e5;
+  text-decoration: none;
+}
+
+.avatar {
+  width: 25%;
+  height: 75%;
+  float: right;
+  margin-left: 10px;
+}

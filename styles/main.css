@@ -1,73 +1,175 @@
-header {
-  color: #3c3026;
-  background-color: #557a95;
-  border: 1px solid;
-  border-radius: 10px;
-  padding-top: 10px;
-  padding-left: 15px;
-  font-family: "Lato", Sans serif;
-  font-size: 15px;
-  text-align: Right;
+* {
+  font-size: 100%;
+  margin: 0px;
 }
 
-#titel {
-  font-family: "Libre Baskerville", Serif;
-  font-size: 30px;
-  text-align: Left;
-  text-decoration: none;
+main {
+  margin: 5% 0%;
 }
 
-h2,
+body {
+  font-size: 0.9rem;
+  font-family: "Lato", sans-serif;
+}
+
+h2 {
+  color: #5d5c61;
+  font-size: 1.4rem;
+}
+
 h3 {
   color: #5d5c61;
+  font-size: 1.2rem;
 }
-
+p {
+  margin: 1rem 0;
+}
 abbr {
   text-decoration: none;
 }
 
-body {
-  font-family: "Lato", Sans serif;
-  font-size: 16px;
+figure {
+  margin: 0px;
+  display: inline;
 }
 
-footer {
-  color: #3e3228 !important;
-  background-color: #557a95;
-  font-size: 1.5em;
-  border: 1px solid;
-  border-radius: 10px;
-  padding-top: 20px;
+.hoofding {
+  color: #ebe5e5;
+  background-color: #272626;
+  border: 1px solid #272626;
+  font-family: "Libre Baskerville", Serif;
+  height: 60px;
+  width: 100%;
+  padding: 10px;
+  top: 0px;
 }
 
+.navigatie {
+  display: inline;
+  position: absolute;
+  list-style: none;
+  padding: 0 10px;
+  font-size: 1.1rem;
+  right: 30px;
+  top: 20px;
+  text-decoration: none;
+}
+
+.lijstitems {
+  display: inline;
+  margin-right: 10px;
+  padding-right: 5px;
+  border-right: 1px solid;
+}
+
+.lijstitems:last-of-type {
+  border-right: none;
+  padding-right: 30px;
+}
+
+.centreren {
+  margin: 0% 25% 2% 25%;
+  font-family: "Lato", Sans Serif;
+  text-align: justify;
+  line-height: 1.5rem;
+  position: static;
+}
+
+.achtergrond {
+  background-color: #272626;
+  color: #dacece;
+  padding-top: 10px;
+}
+
+.voettekst {
+  color: #ebe5e5;
+  background-color: #272626;
+  border: 1px solid #272626;
+  text-align: center;
+  margin: 0px;
+  padding: 15px 0px;
+  font-family: "Libre Baskerville", Serif;
+}
+
+.socialmedia {
+  width: 30px;
+  height: 30px;
+  margin: 0px;
+}
+
+#titel {
+  font-family: "Libre Baskerville", Serif;
+  font-size: 2rem;
+  text-align: left;
+  display: inline;
+}
+
+/* Opmaak linken */
 a:link {
-  color: #3e3228 !important;
+  color: #ebe5e5;
   text-decoration: none;
 }
 
 a:visited {
-  color: #3e3228 !important;
+  color: #ebe5e5;
   text-decoration: none;
 }
 
 a:hover {
-  color: #3e3228 !important;
+  color: #918b87;
   text-decoration: none;
+  transition-delay: 0.1s;
+}
+
+#titel a:hover {
+  text-decoration: none;
+  color: #ebe5e5;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #ebe5e5;
+  font-size: 100%;
 }
 
 a:active {
-  color: #3e3228 !important;
+  color: #ebe5e5;
   text-decoration: none;
 }
 
 .avatar {
-  width: 115px;
-  height: 230px;
+  width: 25%;
+  height: 75%;
+  float: right;
+  margin-left: 10px;
 }
 
-.logo {
-  width: 30px;
-  height: 30px;
-  margin-bottom: 0px;
-  display: inline-block;
+/* Homepage*/
+.hoofdpagina {
+  background-image: url("../images/Background.jpg");
+  background-size: cover;
+  background-repeat: none;
+  height: 100vh;
+  font-family: "Libre Baskerville", serif;
+}
+
+#naam {
+  font-size: 65px;
+  color: #ebe5e5;
+  font-family: "lato", Sans-serif;
+  text-align: center;
+  padding-top: 20%;
+}
+
+#richting {
+  color: #ebe5e5;
+  text-align: center;
+  font-size: 45px;
+  font-family: "lato", Sans-serif;
+}
+
+#titel2 {
+  color: #ebe5e5;
+  font-size: 1.2rem;
+  font-family: "Lato", sans-serif;
 }
