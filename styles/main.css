@@ -354,10 +354,28 @@ label {
   min-height: 300px;
   border: 2px solid #6d848c;
   background-color: #556773;
+  margin: 30px;
+}
+
+.card2 {
+  max-width: 500px;
+  min-width: 500px;
+  max-height: 300px;
+  min-height: 300px;
+  border: 2px solid #6d848c;
+  background-color: #556773;
+  margin: 30px;
 }
 
 .card-img {
   width: 297px;
+  max-height: 297px;
+  margin: auto;
+  background-size: cover;
+}
+
+.card-img2 {
+  max-width: 497px;
   max-height: 297px;
   margin: auto;
   background-size: cover;
@@ -399,20 +417,18 @@ label {
   display: none;
   position: absolute;
   bottom: 10px;
+  left: 59px;
   transition: opacity 0.35s ease;
   padding: 12px 48px;
   color: #e7dfc9;
   border: 3px solid #6d848c;
 }
-
-a > button {
-  color: #e7dfc9 !important;
+.card-btn:hover {
+  color: #e7dfc9;
 }
-
 .card:hover .card-btn {
   display: inline-block;
   border: 3px solid #6d848c;
-  transform: translateX(50%);
 }
 
 /*
