@@ -39,7 +39,6 @@ h3 {
 h4 {
   font-family: "Martel", serif;
   font-size: 0.8rem;
-  color: #e7dfc9;
 }
 
 main {
@@ -347,66 +346,69 @@ label {
 }
 
 /*cards bij projecten */
+/*smalle cards*/
 .card {
   max-width: 300px;
   min-width: 300px;
   max-height: 300px;
   min-height: 300px;
-  border: 2px solid #6d848c;
-  background-color: #556773;
-  margin: 30px;
+  margin: 30px 70px;
 }
 
-.card2 {
+.card-img {
+  max-width: 298px;
+  min-width: 298px;
+  max-height: 298px;
+  min-height: 298px;
+  margin: auto;
+  background-size: cover;
+}
+
+/* brede cards */
+.wide {
   max-width: 500px;
   min-width: 500px;
   max-height: 300px;
   min-height: 300px;
-  border: 2px solid #6d848c;
-  background-color: #556773;
-  margin: 30px;
+  border: 1px solid #707070;
+  background-color: #c5d3d9;
+  margin: 30px 70px;
 }
 
-.card-img {
-  width: 297px;
-  max-height: 297px;
-  margin: auto;
-  background-size: cover;
-}
-
-.card-img2 {
+.card-img-wide {
   max-width: 497px;
-  max-height: 297px;
+  min-width: 497px;
+  max-height: 298px;
+  min-height: 298px;
   margin: auto;
   background-size: cover;
 }
 
+/* hover cards */
 .overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0);
-  transition: background 0.8s ease;
 }
 
 .card:hover .overlay {
   display: block;
-  background: #48484ab0;
+  background: #48484acc;
 }
 
+/*titel en button in cards on hover */
 .card-title {
-  position: absolute;
   display: none;
-  top: 35px;
-  transform: translateX(50%);
   font-weight: 400;
-  font-size: 1.5rem;
   text-transform: uppercase;
-  color: #e7dfc9;
+  color: #f1f0eb;
+  font-size: 2.2rem;
   z-index: 1;
   transition: top 0.5s ease;
+  margin: 35px auto;
+  width: max-content;
 }
 
 .card:hover .card-title {
@@ -415,30 +417,21 @@ label {
 
 .card-btn {
   display: none;
-  position: absolute;
-  bottom: 10px;
-  left: 59px;
+  color: #f2f0eb;
+  border: 3px solid #c5d3d9;
+  padding: 10px 20px;
   transition: opacity 0.35s ease;
-  padding: 12px 48px;
-  color: #e7dfc9;
-  border: 3px solid #6d848c;
+  margin: 150px auto 20px;
+  width: max-content;
 }
+
+.card:hover .card-btn {
+  display: block;
+}
+
 .card-btn:hover {
   color: #e7dfc9;
 }
-.card:hover .card-btn {
-  display: inline-block;
-  border: 3px solid #6d848c;
-}
-
-/*
-
-
-.title {
-
-}
-
-
 
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
