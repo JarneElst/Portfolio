@@ -33,6 +33,7 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
     <div class="container">
       <header class="row">
@@ -73,6 +74,7 @@
           </div>
         </nav>
       </header>
+
       <main>
         <section>
           <div class="form-row">
@@ -109,23 +111,30 @@
             <p>
               Of het nu gaat over een project, een vraag, een interesse of een
               simpele 'hallo'. Aarzel niet en stuur een berichtje!
-            </p></span
+            </p>
+          </span>
+          <form
+            action="./php/mail.php"
+            method="POST"
+            class="form-center"
+            id="contact-form"
           >
-          <form class="form-center">
             <div class="form-row">
               <div class="form-group col-6">
                 <input
                   type="text"
+                  name="naam"
                   class="form-control"
-                  placeholder="Typ hier je naam"
+                  placeholder="Typ hier je naam*"
                 />
               </div>
               <div class="form-group col-6">
                 <input
                   type="email"
+                  name="email"
                   class="form-control"
                   id="inputEmail4"
-                  placeholder="Email"
+                  placeholder="Email*"
                 />
               </div>
             </div>
@@ -133,14 +142,16 @@
               <div class="form-group col-md-6">
                 <input
                   type="text"
+                  name="onderwerp"
                   class="form-control"
                   id="Onderwerp"
-                  placeholder="Geef het onderwerp op"
+                  placeholder="Geef een onderwerp op*"
                 />
               </div>
               <div class="form-group col-md-6">
                 <input
                   type="text"
+                  name="tel"
                   class="form-control"
                   id="Onderwerp"
                   placeholder="Telefoonnummer"
@@ -151,16 +162,29 @@
               <div class="form-group col-md-12">
                 <textarea
                   class="form-control"
+                  name="bericht"
                   id="validationTextarea"
-                  placeholder="Typ uw bericht"
+                  placeholder="Typ uw bericht*"
                   rows="2"
                 ></textarea>
               </div>
             </div>
-            <button type="submit" class="btn btn-primary">Verzenden</button>
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <input
+                  type="text"
+                  name="human"
+                  class="form-control"
+                  placeholder="2+2=?*"
+                />
+              </div>
+            </div>
+
+            <input type="submit" value="verzenden" class="btn btn-primary" />
           </form>
         </section>
       </main>
+
       <footer class="color-footer row">
         <p class="col-12">Jarne Elst</p>
         <p class="col-12">
@@ -203,6 +227,13 @@
       }
 
       expandTextarea("txtarea");
+
+      $(document).ready(function() {
+        //This condition will check if form with id 'contact-form' is exist then only form reset code will execute.
+        if ($("#contact-form").length > 0) {
+          $("#contact-form")[0].reset();
+        }
+      });
     </script>
   </body>
 </html>
