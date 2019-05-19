@@ -1,15 +1,17 @@
-/*
-color: #556773;
-color: #6D848C;
-color: #C5D3D9;
-color: #F2F0EB;
-color: #0D0D0D;
+/* colors
+Grijs #414A4F
+Blauw #024059
+Donker groen #025159
+Lichter groen #17736A
+licht oranje #F28D35
+Donker oranje #F25D27
+Gebroken wit #F2ECE7
 
+
+fonts: 
 font-family: 'Martel', serif;
 font-family: 'Lato', sans-serif;
 */
-
-/*smoother scroll, geen permanente cross browser oplossing!*/
 
 * {
   font-size: 16px;
@@ -41,21 +43,26 @@ h4 {
   font-size: 0.8rem;
 }
 
-main {
-  margin-top: 7%;
-  width: 100vw;
+h5 {
+  font-family: "Martel", serif;
+  font-size: 1.5rem;
 }
 
-section {
+main {
+  margin-top: 7%;
+  width: 90vw;
+}
+
+.main {
+  margin: 0px !important;
+}
+
+.section {
   margin: 7% 10% !important;
 }
 
 p {
   margin: 0px;
-}
-
-header {
-  min-height: 100px;
 }
 
 .container {
@@ -81,7 +88,7 @@ a.nav-link {
 .sticky {
   top: 0px;
   z-index: 99;
-  background-color: #48484a !important;
+  background-color: #024059 !important;
   transition-duration: 1s;
   transition-delay: 0.2s;
 }
@@ -109,12 +116,16 @@ a.nav-link {
 
 nav > ul > li > a:hover,
 .nav-link:hover {
-  color: #e7dfc9 !important;
+  color: #f25d27 !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(242, 236, 231)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 /* Hero image header */
 .home-img {
-  background-image: url("../images/Background.jpg");
+  background-image: url("../images/background.jpg");
   background-repeat: none;
   background-position: center;
   background-size: cover;
@@ -151,18 +162,17 @@ nav > ul > li > a:hover,
 
 a:active {
   text-decoration: none;
-  color: #f2f0eb;
+  color: #f1f0eb;
 }
 
 a:link {
   text-decoration: none;
-  color: #f2f0eb;
+  color: #f1f0eb;
 }
 
 /*header andere pagina's */
 .color {
-  background-color: #707070 !important;
-  min-height: 120px;
+  background-color: #024059 !important;
 }
 
 /* homepage section 1; who am i?*/
@@ -191,13 +201,14 @@ a:link {
 }
 
 .progress {
-  background-color: #f2f0eb;
+  background-color: #f28d35;
+  border: 1px solid #f25d27;
   height: 20px;
   margin-bottom: 30px;
 }
 
 .progress-bar {
-  background-color: #c5d3d9;
+  background-color: #025159;
   height: 20px;
   margin-bottom: 30px;
 }
@@ -242,28 +253,26 @@ a:link {
   margin-left: 15px;
 }
 .btn-download {
-  border: 3px solid #6d848c;
-  background-color: #c5d3d9;
+  border: 3px solid #025159;
+  background-color: #17736a;
   padding: 15px;
-  color: #0d0d0d;
   margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .btn-download:hover {
-  background-color: #6d848c;
+  background-color: #025159;
   padding: 15px;
   transition-duration: 0.6s;
-  color: #0d0d0d;
 }
 .btn-download > a {
-  color: #0d0d0d;
+  color: #f1f0eb;
 }
 
 .facebook {
   display: inline-block;
-  color: #0d0d0d !important;
+  color: #f25d27 !important;
   text-align: center;
   margin-top: 5px;
   margin-right: 5px;
@@ -272,7 +281,7 @@ a:link {
 
 .linkedin {
   display: inline-block;
-  color: #0d0d0d !important;
+  color: #f25d27 !important;
   text-align: center;
   margin-top: 5px;
   margin-right: auto;
@@ -282,7 +291,7 @@ a:link {
 
 .color-footer {
   color: #f2f0eb !important;
-  background-color: #707070;
+  background-color: #024059;
   text-align: center;
   width: 100vw;
   padding: 30px 0px;
@@ -300,8 +309,8 @@ a:link {
 
 .btn,
 .btn-primary {
-  border: 3px solid #6d848c;
-  background-color: #c5d3d9;
+  border: 3px solid #025159;
+  background-color: #17736a;
   padding: 15px;
   color: #0d0d0d;
   margin-left: auto;
@@ -311,8 +320,8 @@ a:link {
 
 .btn:hover,
 .btn-primary:hover {
-  border: 3px solid #6d848c;
-  background-color: #6d848c;
+  border: 3px solid #025159;
+  background-color: #025159;
   padding: 15px;
   transition-duration: 0.6s;
   color: #0d0d0d;
@@ -345,94 +354,85 @@ label {
   margin-bottom: 10px;
 }
 
-/*cards bij projecten */
-/*smalle cards*/
-.card {
-  max-width: 300px;
-  min-width: 300px;
-  max-height: 300px;
-  min-height: 300px;
-  margin: 30px 70px;
+/*Projecten*/
+.projecten-box {
+  padding: 0px 60px;
+}
+/*donker thema*/
+.projecten-background {
+  background-color: #ffffff;
 }
 
-.card-img {
-  max-width: 298px;
-  min-width: 298px;
-  max-height: 298px;
-  min-height: 298px;
-  margin: auto;
-  background-size: cover;
-}
-
-/* brede cards */
-.wide {
+.projecten-picture {
   max-width: 500px;
-  min-width: 500px;
-  max-height: 300px;
-  min-height: 300px;
-  border: 1px solid #707070;
-  background-color: #c5d3d9;
-  margin: 30px 70px;
+  display: inline-block;
+  margin: 10px 0px;
 }
 
-.card-img-wide {
-  max-width: 497px;
-  min-width: 497px;
-  max-height: 298px;
-  min-height: 298px;
-  margin: auto;
-  background-size: cover;
+.projecten-designimg {
+  max-width: 250px;
+  float: right;
+  margin: 16px 40px 20px 20px;
 }
 
-/* hover cards */
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.number-light {
+  font-size: 5rem;
+  color: #f28d35;
+  font-family: "Martel", serif;
+  margin: 60px 0px;
 }
 
-.card:hover .overlay {
-  display: block;
-  background: #48484acc;
-}
-
-/*titel en button in cards on hover */
-.card-title {
-  display: none;
-  font-weight: 400;
+h1.titel-light {
+  color: #f28d35;
+  margin: 90px 0px 40px;
   text-transform: uppercase;
-  color: #f1f0eb;
-  font-size: 2.2rem;
-  z-index: 1;
-  transition: top 0.5s ease;
-  margin: 35px auto;
-  width: max-content;
 }
 
-.card:hover .card-title {
-  display: block;
+.titel-light {
+  color: #f28d35;
+  margin-top: 60px;
 }
 
-.card-btn {
-  display: none;
-  color: #f2f0eb;
-  border: 3px solid #c5d3d9;
-  padding: 10px 20px;
-  transition: opacity 0.35s ease;
-  margin: 150px auto 20px;
-  width: max-content;
+.responsive-screen {
+  margin: 30px;
 }
 
-.card:hover .card-btn {
-  display: block;
+.responsive-img {
+  margin: 20px 10% 20px 0px;
 }
 
-.card-btn:hover {
-  color: #e7dfc9;
+.projecten-txt {
+  text-align: justify;
+  margin-right: 3%;
+}
+/*licht thema*/
+.number-dark {
+  font-size: 5rem;
+  color: #025159;
+  font-family: "Martel", serif;
+  margin: 60px 0px;
 }
 
+.number-background-dark {
+  background-color: #025159;
+}
+
+.number-background-light {
+  background-color: #f28d35;
+}
+
+h1.titel-dark {
+  color: #025159;
+  margin: 90px 0px 40px;
+  text-transform: uppercase;
+}
+
+.titel-dark {
+  color: #025159;
+  margin-top: 60px;
+}
+
+/*Mediaqueries*/
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
   h1 {
@@ -474,6 +474,9 @@ label {
   .nav-item {
     text-align: right;
     padding-right: 20px !important;
+  }
+  article > .card {
+    flex-direction: column;
   }
 }
 
@@ -525,6 +528,12 @@ label {
     text-align: right;
     padding-right: 20px !important;
   }
+  .number-dark {
+    font-size: 4rem;
+    color: #025159;
+    font-family: "Martel", serif;
+    margin: 60px 0px;
+  }
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -574,10 +583,15 @@ label {
   .navbar-nav > li:last-of-type {
     border: none;
   }
+  .number-dark {
+    font-size: 3rem;
+    color: #025159;
+    font-family: "Martel", serif;
+    margin: 72px 0px;
+  }
 }
 
 /*Large devices (desktops, 992px and up)*/
-/*mag verwijderd worden in toekomst */
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   h1 {
@@ -619,57 +633,10 @@ label {
   .navbar-nav > li:last-of-type {
     border: none;
   }
-}
-
-/*Extra large devices (large desktops, 1200px and up)*/
-/*mag verwijderd worden in toekomst */
-@media (min-width: 1200px) {
-  h1 {
-    font-size: 3.5rem;
+  .number-dark {
+    font-size: 4rem;
+    color: #025159;
     font-family: "Martel", serif;
-    color: #f2f0eb;
-  }
-
-  h2 {
-    font-size: 2rem;
-    font-family: "lato", sans-serif;
-    color: #f2f0eb;
-  }
-
-  h3 {
-    font-size: 1.5rem;
-    font-family: "Lato", sans-serif;
-    color: #0d0d0d;
-    text-align: center;
-    margin: 50px 0px;
-  }
-
-  h4 {
-    font-family: "Martel", serif;
-    font-size: 0.8rem;
-  }
-  .picture {
-    margin: 0px 40px;
-    width: 450px;
-  }
-
-  .personal-comp {
-    width: 400px;
-    height: auto;
-    float: left;
-    margin: 20px 40px;
-  }
-
-  .navbar-nav > li:last-of-type {
-    border: none;
-  }
-
-  .navbar-collapse,
-  .collapse {
-    text-align: right;
-  }
-
-  .navbar-toggler {
-    background-color: white !important;
+    margin: 60px 0px;
   }
 }
