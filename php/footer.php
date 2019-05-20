@@ -12,6 +12,15 @@
 </div>
 
 <script>
+    $('#button').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 500);
+    return false;
+});
+
+</script>
+<script>
 window.onscroll = function() {
     myFunction();
 };

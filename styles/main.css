@@ -78,6 +78,9 @@ p {
 }
 
 /*navbar */
+header {
+  height: 64px;
+}
 .bg-light,
 .navbar-brand,
 ul.navbar-nav,
@@ -358,7 +361,7 @@ label {
 
 /*Projecten*/
 .projecten-box {
-  padding: 0px 60px;
+  padding: 2% 3% 5%;
 }
 /*donker thema*/
 .projecten-background {
@@ -417,10 +420,12 @@ h1.titel-light {
 
 .number-background-dark {
   background-color: #025159;
+  padding-top: 2%;
 }
 
 .number-background-light {
   background-color: #f28d35;
+  padding-top: 2%;
 }
 
 h1.titel-dark {

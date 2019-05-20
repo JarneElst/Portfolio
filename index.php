@@ -33,12 +33,12 @@ include("./php/head.php");
             <article class="home-txt">
                 <h1>Jarne Elst</h1>
                 <h2>Ontdek meer!</h2>
-                <a href="#ik">
-                    <button class="home-btn" type="button" id="knop">
+                <button class="home-btn" type="button" id="knop">
+                    <a href="#ik">
                         <!-- ID toevoegen-->
                         <i class="fas fa-angle-double-down fa-lg"></i>
-                    </button>
-                </a>
+                    </a>
+                </button>
             </article>
         </header>
         <main>
