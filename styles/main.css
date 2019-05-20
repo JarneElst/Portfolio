@@ -48,6 +48,13 @@ h5 {
   font-size: 1.5rem;
 }
 
+h6 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #f25d27;
+}
+
 main {
   margin-top: 7%;
   width: 100%;
@@ -437,6 +444,15 @@ h1.titel-dark {
 .titel-dark {
   color: #025159;
   margin-top: 60px;
+}
+
+/*carousel komiktoneel*/
+.carousel-caption {
+  left: 30px !important;
+  right: 0px;
+  top: 70px;
+  bottom: 0px;
+  text-align: left;
 }
 
 /*Mediaqueries*/
