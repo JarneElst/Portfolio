@@ -86,7 +86,7 @@ p {
 
 /*navbar */
 header {
-  height: 64px;
+  height: 63px;
 }
 .bg-light,
 .navbar-brand,
@@ -167,6 +167,9 @@ nav > ul > li > a:hover,
   margin-top: 50px;
 }
 
+.home-link {
+  color: #f1f0eb;
+}
 /* Opmaak icon hero image */
 .fa-angle-double-down {
   color: #f1f0eb;
@@ -453,6 +456,34 @@ h1.titel-dark {
   top: 70px;
   bottom: 0px;
   text-align: left;
+}
+
+.komik-container {
+  position: relative;
+  width: 70vw;
+  max-width: 75vw;
+}
+
+.komik-image {
+  max-width: 70vw;
+  min-width: 70vw;
+}
+
+.komik-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-image: url("../images/proj-komik-after.png");
+}
+
+.komik-container:hover .komik-overlay {
+  opacity: 1;
 }
 
 /*Mediaqueries*/

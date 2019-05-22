@@ -3,7 +3,6 @@ $title = projecten;
 
 include("./php/head.php");
 include("./php/header.php");
-
 ?>
 
 <main class="main">
@@ -45,9 +44,7 @@ include("./php/header.php");
                     integratie met bootstrap.
                 </p>
                 <h5 class="titel-dark">Responsive design</h5>
-                <img src="./images/proj-chenesse-iphone1.png" alt="Iphonescreen" class="responsive-img" />
-
-                <img src="./images/Proj-chenesse-iphone2.png" alt="Iphonescreen" class="responsive-img" />
+                <img src="./images/Chenesse2.png" alt="Iphonescreen" class="responsive-img" />
             </div>
         </article>
     </section>
@@ -59,42 +56,6 @@ include("./php/header.php");
             </div>
             <div class="projecten-box col-12 col-md-11">
                 <h1 class="titel-light">Komiktoneel</h1>
-
-                <div class="bd-example">
-                    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="./images/proj-komik-before.png" class="d-block w-100"
-                                    alt="Komiktoneel before">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h6>Before</h6>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./images/proj-komik-after.png" class="d-block w-100" alt="
-                                    Komiktoneel after">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h6>After</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button"
-                            data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button"
-                            data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                </div>
-
                 <figure>
                     <img src="./images/Proj-Komiktoneel.png" alt="Foto Chenesse" class="projecten-picture" />
                 </figure>
@@ -110,7 +71,6 @@ include("./php/header.php");
                     toneelvereniging. Daarnaast kunnen bezoekers ook tickets reserveren via de website.
                 </p>
                 <h5 class="titel-light">Designproces</h5>
-                <!-- Carousel met before en after foto! -->
                 <figure>
                     <img src="./images/Proj-komiktoneel-Marlene.png" alt="Visitekaartje" class="projecten-designimg " />
                 </figure>
@@ -130,15 +90,13 @@ include("./php/header.php");
                     platformen. Vanaf het moment deze mockups klaar waren, konden we starten met de ontwikkeling van de
                     website.
                 </p>
-                <h5 class="titel-light">Responsive design</h5>
-                <table class="responsive-screen">
-                    <tr>
-                        <img src="./images/proj-chenesse-iphone1.png" alt="Iphonescreen" class="responsive-img" />
-                    </tr>
-                    <tr>
-                        <img src="./images/Proj-chenesse-iphone2.png" alt="Iphonescreen" class="responsive-img" />
-                    </tr>
-                </table>
+                <h5 class="titel-light">Before vs After</h5>
+                <div class="komik-container">
+                    <img src="./images/proj-komik-before.png" alt="Avatar" class="komik-image">
+                    <div class="komik-overlay">
+                        <img class="komik-image" src="./images/proj-komik-after.png" alt="">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -271,36 +229,6 @@ include("./php/header.php");
         </div>
     </section>
 
-    <section class="projecten-background">
-        <div class="row">
-            <div class="number-background-dark col-sm-12 col-md-1">
-                <p class="number-light">06</p>
-            </div>
-            <div class="projecten-box col-12 col-md-11">
-                <h1 class="titel-light">Instructievideo's</h1>
-                <figure>
-                    <img src="./images/Proj-Logo Renowin.png" alt="Foto Chenesse" class="projecten-picture" />
-                </figure>
-                <h5 class="titel-light">Concept</h5>
-                <p class="projecten-txt">
-                    Een startende eenmanszaak kwam naar mij met de vraag om een
-                    website te ontwikkelen. Achteraf gezien heb ik voor hen een
-                    volledige huisstijl gemaakt. Zowel logo, visitekaartje als
-                    website werden in samenspraak ontwikkeld.
-                </p>
-                <h5 class="titel-light">Designproces</h5>
-                <!-- Verschillende logo's/visitekaartjes laten zien -->
-                <figure>
-                    <img src="./images/proj-renowin-voorkant.png" alt="Renowin designproces"
-                        class="projecten-designimg " />
-                </figure>
-                <figure>
-                    <img src="./images/proj-renowin-voorkant.png" alt="Renowin designproces"
-                        class="projecten-designimg " />
-                </figure>
-            </div>
-        </div>
-    </section>
 
     <section class="projecten-nobackground"></section>
 </main>
