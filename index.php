@@ -7,7 +7,9 @@ include("./php/head.php");
     <div class="container">
         <header class="row home-img">
             <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light" id="navbar">
-                <a class="navbar-brand" href="./index.php">Jarne Elst</a>
+                <a class="navbar-brand" href="./index.php">
+                    <img src="./images/logo website.png" alt="logo" class="navbar-logo">
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -18,8 +20,7 @@ include("./php/head.php");
                             <a class="nav-link" href="./index.php">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <!-- ID aanpassen aan section onder hero image!-->
-                            <a class="nav-link home-link" href="#ik">Over mij</a>
+                            <a class="nav-link home-link" href="./blog.php">Blogpost</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./projecten.php">Projecten</a>
@@ -71,11 +72,11 @@ include("./php/head.php");
                     </p>
                 </article>
                 <figure class="col-md-12 col-lg-6">
-                    <img src="./images/Proclamatie .jpg" alt="Foto van mijn proclamatie" class="picture" />
+                    <img src="./images/Proclamatie .jpg" alt="Foto van mijn proclamatie" class="img-proclamatie" />
                 </figure>
             </section>
 
-            <section class="section row">
+            <section class="section row" id="me">
                 <h3 class="col-12">Persoonlijk profiel</h3>
                 <figure class="col-md-12 col-lg-6">
                     <img src="./images/Personal competences.png" alt="Persoonlijke competenties"

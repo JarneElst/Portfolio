@@ -86,7 +86,7 @@ p {
 
 /*navbar */
 header {
-  height: 63px;
+  background-color: #024059 !important;
 }
 .bg-light,
 .navbar-brand,
@@ -133,6 +133,11 @@ nav > ul > li > a:hover,
 
 .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(242, 236, 231)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-logo {
+  height: 25px;
+  width: auto;
 }
 
 /* Hero image header */
@@ -385,7 +390,7 @@ label {
 }
 
 .projecten-designimg {
-  max-width: 250px;
+  max-width: 300px;
   float: right;
   margin: 16px 40px 20px 20px;
 }
@@ -413,7 +418,9 @@ h1.titel-light {
 }
 
 .responsive-img {
-  margin: 20px 10% 20px 0px;
+  margin: 5% 25% 20px 25%;
+  width: 600px;
+  height: auto;
 }
 
 .projecten-txt {
@@ -514,13 +521,13 @@ h1.titel-dark {
     font-size: 0.8rem;
   }
 
-  .picture {
-    margin: 0px 40px;
-    width: 450px;
+  .img-proclamatie {
+    margin: 40px 0px;
+    width: 200px;
   }
 
   .personal-comp {
-    width: 400px;
+    width: 250px;
     height: auto;
     float: left;
     margin: 20px 40px;
@@ -531,6 +538,18 @@ h1.titel-dark {
   }
   article > .card {
     flex-direction: column;
+  }
+
+  .responsive-img {
+    margin: auto;
+    width: 350px;
+    height: auto;
+  }
+
+  .projecten-picture {
+    max-width: 300px;
+    display: inline-block;
+    margin: 10px 0px;
   }
 }
 
@@ -561,9 +580,9 @@ h1.titel-dark {
     font-size: 0.8rem;
   }
 
-  .picture {
-    margin: 0px 40px;
-    width: 450px;
+  .img-proclamatie {
+    margin: 40px 40px;
+    width: 350px;
   }
 
   .personal-comp {
@@ -587,6 +606,25 @@ h1.titel-dark {
     color: #025159;
     font-family: "Martel", serif;
     margin: 60px 0px;
+  }
+
+  .number-light {
+    font-size: 4rem;
+    color: #f28d35;
+    font-family: "Martel", serif;
+    margin: 60px 0px;
+  }
+
+  .responsive-img {
+    margin: auto;
+    width: 400px;
+    height: auto;
+  }
+
+  .projecten-picture {
+    max-width: 350px;
+    display: inline-block;
+    margin: 10px 0px;
   }
 }
 
@@ -617,9 +655,9 @@ h1.titel-dark {
     font-size: 0.8rem;
   }
 
-  .picture {
-    margin: 0px 40px;
-    width: 420px;
+  .img-proclamatie {
+    margin: 40px 40px;
+    width: 400px;
   }
 
   .personal-comp {
@@ -637,16 +675,34 @@ h1.titel-dark {
   .navbar-nav > li:last-of-type {
     border: none;
   }
+
   .number-dark {
     font-size: 3rem;
     color: #025159;
     font-family: "Martel", serif;
     margin: 72px 0px;
   }
+
+  .number-light {
+    font-size: 3rem;
+    color: #f28d35;
+    font-family: "Martel", serif;
+    margin: 72px 0px;
+  }
+
+  .responsive-img {
+    margin: auto;
+    width: 550px;
+    height: auto;
+  }
+  .projecten-picture {
+    max-width: 400px;
+    display: inline-block;
+    margin: 10px 0px;
+  }
 }
 
 /*Large devices (desktops, 992px and up)*/
-
 @media (min-width: 992px) and (max-width: 1199.98px) {
   h1 {
     font-size: 3.5rem;
@@ -672,7 +728,7 @@ h1.titel-dark {
     font-family: "Martel", serif;
     font-size: 0.8rem;
   }
-  .picture {
+  .img-proclamatie {
     margin: 0px 40px;
     width: 400px;
   }
@@ -687,10 +743,30 @@ h1.titel-dark {
   .navbar-nav > li:last-of-type {
     border: none;
   }
+
   .number-dark {
     font-size: 4rem;
     color: #025159;
     font-family: "Martel", serif;
     margin: 60px 0px;
+  }
+
+  .number-light {
+    font-size: 4rem;
+    color: #f28d35;
+    font-family: "Martel", serif;
+    margin: 60px 0px;
+  }
+
+  .responsive-img {
+    margin: auto;
+    width: 600px;
+    height: auto;
+  }
+
+  .projecten-picture {
+    max-width: 500px;
+    display: inline-block;
+    margin: 10px 0px;
   }
 }
