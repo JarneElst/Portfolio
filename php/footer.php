@@ -48,7 +48,7 @@ function myFunction() {
 <script>
 //smooth scroll homepage
 $(".home-link").click(function() {
-    var offset = $($.attr(this, "href")).offset().top - 60;
+    var offset = $($.attr(this, "href")).offset().top - 45;
     $("html, body").animate({
             scrollTop: offset
         },

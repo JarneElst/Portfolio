@@ -13,7 +13,7 @@
             <div class="projecten-box col-12 col-md-11">
                 <h1 class="titel-dark">Stage</h1>
 
-                <h2> Stageblog 1 </h2>
+                <h5 class="titel-dark"> Stageblog 1 </h5>
 
                 <p class="projecten-txt">
                     Spannend, nerveus, stresserend, benieuwd, zenuwachtig, ongeduldig, vol verwachtingen, … Slechts een
@@ -49,7 +49,7 @@
 
                     Na een eerst geslaagde week, ben ik heel benieuwd naar wat ik volgende week te vertellen zal hebben.
                 </p>
-                <h2> Stageblog 2 </h2>
+                <h5 class="titel-dark"> Stageblog 2 </h5>
 
                 <p class="projecten-txt">
                     Nadat ik me de eerste week vooral bezig heb gehouden met het klaarmaken van computers voor klanten,
@@ -85,7 +85,7 @@
                     dag te nemen om mijn vragen te beantwoorden. Omdat het vaak vragen zijn waardoor ik en/of de klant
                     niet verder kan, moeten we nog even verder bekijken hoe we dit praktisch juist gaan doen.
                 </p>
-                <h2>Stageblog 3</h2>
+                <h5 class="titel-dark">Stageblog 3</h5>
 
                 <p class="projecten-txt">
 
@@ -129,7 +129,7 @@
                     heb ik op veel momenten gedacht dat het me niet ging lukken. Omdat mijn probleemoplossend vermogen
                     serieus op de proef gesteld werd, heb ik door deze installatie heel veel bijgeleerd.
                     </>
-                    <h2> Stageblog 4</h2>
+                    <h5 class="titel-dark"> Stageblog 4</h5>
 
                     <p class="projecten-txt">
                         Deze laatste week stond vooral in het teken van het afwerken van projecten die ik doorheen de
@@ -183,9 +183,9 @@
             </div>
             <div class="projecten-box col-12 col-md-11">
                 <h1 class="titel-light">Fosdem</h1>
+                <h5 class="titel-dark"> Blogpost about FOSDEM </h5>
+
                 <p class="projecten-txt">
-                    <h2> Blogpost about FOSDEM
-                    </h2>
 
                     Since our trip to London was probably the best moment so far this year, I really looked forward to
                     another trip.
@@ -237,130 +237,55 @@
                 <p class="number-dark">03</p>
             </div>
             <div class="projecten-box col-12 col-md-11">
-                <h1 class="titel-dark">Olijftak</h1>
-                <figure>
-                    <img src="./images/proj-olijftak-zorgbedrijfantwerpen.png" alt="Foto Chenesse"
-                        class="projecten-picture" />
-                </figure>
-                <h5 class="titel-dark">Wat?</h5>
+                <h1 class="titel-dark">Londen</h1>
+                <h5 class="titel-dark"> Blogpost London</h5>
+
                 <p class="projecten-txt">
-                    Tijdens dit schooljaar zijn we voor het vak helpdesk meermaals
-                    naar de olijftak geweest. De olijftak is een onderdeel van het zorgbedrijf te Antwerpen en is een
-                    soort van woon-en zorgcentrum. Er zijn zowel mensen die hier residentieel verblijven als mensen die
-                    doorheen de dag binnen en buiten lopen. Het was de bedoeling om enerzijds de
-                    ouderen iets nieuws te leren over de digitale wereld. Anderzijds
-                    wilden we hen ook helpen met de moeilijkheden die zij
-                    ondervinden met computers, tablets en smartphones.
-                </p>
-                <h5 class="titel-dark">Designproces</h5>
-                <figure>
-                    <img src="./images/Proj-Olijftak.jpg" alt="Affiche Olijftak" class="projecten-designimg " />
-                </figure>
-                <p class="projecten-txt">
-                    Om onze komst aan te kondingen werd er enkele weken op voorhand
-                    een affiche opgemaakt en uitgehangen. Het ontwerpen van deze
-                    affiches was voor mij iets helemaal anders dan wat ik tot dan
-                    toe gedaan had. Het ging hier vooral over duidelijk zijn zonder
-                    te veel bijkomende informatie te geven. De allereerste poster
-                    die werd uitgehangen was uiteindelijk een poster die ik zelf had
-                    ontwikkeld. Na slechts enkele maanden deze richting gevogld te
-                    hebben, was dit voor mij een grote erkenning.
-                </p>
-                <h5 class="titel-dark">Ervaring</h5>
-                <p class="projecten-txt">
-                    Ik vond het persoonlijk heel erg fijn om deze mensen te kunnen
-                    helpen. Dit sloot natuurlijk ook mooi aan met mijn vooropleiding
-                    wat maakte dat ik mij meteen comfortabel voelde om te werken met
-                    en voor deze doelgroep. Hier is ook mijn interesse in het gebied
-                    rond helpdesk ontstaan, iets wat de maanden nadien enkel
-                    gegroeid is en een weg die ik uiteindelijk ook voor stage ben
-                    ingeslagen.
+                    Finally! After all those weeks of just trying to think about how London would be, weeks of looking
+                    forward to London, argue how much we were able to drink and all the late nights out we were
+                    planning, it was finally time to make it happen. To live the dream. To enjoy every minute and every
+                    beer. Too keep on going until we die.
+
+                    We went to bed at 9.30pm the first night.
+
+                    Can I speak in our defence? We left early Wednesday morning and we couldn’t sleep in the bus because
+                    of the good music that was playing pretty hard, so we were all really really tired and Thursday was
+                    going to be a long day so we had to be alive and kicking, right?
+
+                    Thursday was a lot more exhausting than Wednesday so I was really glad I had a good night of sleep.
+                    After waking up at 7.00am, we all took a shower and went for some breakfast. I really liked the full
+                    breakfast, even the potato’s! Something I wouldn’t eat as breakfast normally. After the breakfast we
+                    went out for a long walk with 7IT. We visited Greenwich Park, which you can see on the photo on the
+                    right. After Greenwich Park we went to London City for a traditional English meal: Fish & Chips. Our
+                    next stop was the kings crown bar to have a beer before we went over to the Science Museum.
+
+                    In the Science Museum we had a little task to do for English lesson. We had to make 3 interviews
+                    about something IT-related in the science museum. That was the first thing we did when we arrived.
+                    After those interviews, we explored the rest of the museum. With airplanes and helicopters hanging
+                    down from the ceiling, the top floor was the most spectacular in my opinion.
+
+                    After the science museum we went to one of the largest toy shops I’ve ever seen: Hamleys. If I was
+                    ten years younger, this would have been a dream coming true. Even know I really enjoyed walking
+                    around the store. Did you ever went from the galaxy to Hogwarts in just a few seconds? I didn’t
+                    think so. That’s some true magic, isn’t? Thank god the escalator stopped at platform 9 ¾ and we
+                    could leave hamleys for some food. TGIF or Thank God Its Friday was just what we needed after a long
+                    day in London.
+
+                    After TGIF we went back to Blackheath together with Veerle and 7ME for some beers in the Kings
+                    Crown. After some beers we went to the hotel too drink something in the bar. It seems like everyone
+                    thought the same thing because we were all there. With 7me and 7IT we chatted and played ‘Black
+                    Stories’ until 2am.
+
+                    The next morning was all about leaving London so we didn’t do that much. First, we had breakfast and
+                    left our suitcases at the bus. After a walk to Greenwich Park for the second day in a row, we drunk
+                    a coffee in a bar in the park and went to the city of Blackheath. We bought our self some food and
+                    drinks for the trip back to Antwerp and went back to the hotel and the bus.
                 </p>
             </div>
         </div>
     </section>
 
-    <section class="projecten-background">
-        <div class="row">
-            <div class="number-background-dark col-sm-12 col-md-1">
-                <p class="number-light">04</p>
-            </div>
-            <div class="projecten-box col-12 col-md-11">
-                <h1 class="titel-light">Renowin</h1>
-                <figure>
-                    <img src="./images/Proj-Logo Renowin.png" alt="Foto Chenesse" class="projecten-picture" />
-                </figure>
-                <h5 class="titel-light">Concept</h5>
-                <p class="projecten-txt">
-                    Een startende eenmanszaak kwam naar mij met de vraag om een
-                    website te ontwikkelen. Achteraf gezien heb ik voor hen een
-                    volledige huisstijl gemaakt. Zowel logo, visitekaartje als
-                    website werden in samenspraak ontwikkeld.
-                </p>
-                <h5 class="titel-light">Designproces</h5>
-                <!-- Verschillende logo's/visitekaartjes laten zien -->
-                <figure>
-                    <img src="./images/proj-renowin-voorkant.png" alt="Renowin designproces"
-                        class="projecten-designimg " />
-                </figure>
-                <figure>
-                    <img src="./images/proj-renowin-voorkant.png" alt="Renowin designproces"
-                        class="projecten-designimg " />
-                </figure>
-            </div>
-        </div>
-    </section>
 
-    <section class="projecten-nobackground">
-        <div class="row">
-            <div class="number-background-light col-12 col-md-1">
-                <p class="number-dark">05</p>
-            </div>
-            <div class="projecten-box col-12 col-md-11">
-                <h1 class="titel-dark">Stage</h1>
-                <figure>
-                    <img src="./images/CavereLogo.png" alt="Foto stage" class="projecten-picture" />
-                </figure>
-                <h5 class="titel-dark">Waarom deze stageplaats?</h5>
-                <p class="projecten-txt">
-                    Tijdens het volgen van het vak helpdesk, de sessies in de
-                    olijftak en tijdens mijn nieuwe studentenjob bij beego heb ik
-                    geleerd dat mensen helpen met hun computerproblemen iets was
-                    waar ik erg veel voldoening uit haal. Omdat ik er ook van
-                    overtuigd ben dat je op een helpdesk veel verschillende
-                    moeilijkheden krijgt en daardoor veel bijleert op relatief korte
-                    tijd, vond ik dit de geschikte stageplaats voor mij. Dat er een
-                    stageplaats die zo nauw aansloot bij mijn verwachtingen zich ook
-                    in mijn eigen regio bevond, maakte deze stageplaats des te
-                    interessanter.
-                </p>
-                <h5 class="titel-dark">Projecten</h5>
-                <figure>
-                    <img src="./images/proj-stage-handtekening.png" alt="Digitale handtekening"
-                        class="projecten-designimg " />
-                </figure>
-                <p class="projecten-txt">
-                    Tijdens de stage heb ik heel veel verschillende dingen mogen
-                    doen. Één project was echter de rode draad doorheen deze 4
-                    weekse stage: redesignen van de digitale handtekening. Ik kreeg
-                    vrij snel de vraag om een nieuw ontwerp te maken van de reeds
-                    bestaande handtekening die onder mails gezet werd.
-                </p>
-                <h5 class="titel-dark">Ervaring</h5>
-                Ik heb deze stage als zeer fijn ervaren. Ik kreeg vanaf dag één de
-                vrijheid om heel veel verschillende dingen te proberen. Hoewel ik
-                niet altijd juist wist wat of hoe bepaalde zaken juist uitgevoerd
-                moesten worden, werd ik hier meestal zelfstandig op losgelaten
-                wetende dat ik met vragen of moeilijkheden altijd bij één van de
-                medewerkers terecht kon. Achteraf is het ook fijn om te horen dat
-                ook zij tevreden waren van mijn werk en zo kon ik de stageweken
-                afsluiten met een contractaanbieding op zak.
-            </div>
-        </div>
-    </section>
-
-
-    <section class="projecten-nobackground"></section>
 </main>
 
 <?php 

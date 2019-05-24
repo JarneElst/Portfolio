@@ -230,7 +230,6 @@ include("./php/header.php");
     </section>
 
 
-    <section class="projecten-nobackground"></section>
 </main>
 
 <?php 
