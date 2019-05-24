@@ -493,6 +493,9 @@ h1.titel-dark {
   opacity: 1;
 }
 
+.blog-tekst {
+  margin-bottom: 2rem;
+}
 /*Mediaqueries*/
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
