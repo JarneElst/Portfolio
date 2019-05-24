@@ -11,8 +11,6 @@
 </footer>
 </div>
 
-
-
 <!--Dit script genomen om de scroll te laten werken, het script hieronder is de aanbevolen scroll voor bootstrap -->
 <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
 <!--
