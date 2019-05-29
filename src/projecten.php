@@ -157,27 +157,19 @@ include("./components/header.php");
                 <p class="number-light">04</p>
             </div>
             <div class="projecten-box col-12 col-md-11">
-                <h1 class="titel-light">Renowin</h1>
+                <h1 class="titel-light">Kineco</h1>
                 <figure>
                     <img src="./images/Proj-Logo Renowin.png" alt="Foto Chenesse" class="projecten-picture" />
                 </figure>
                 <h5 class="titel-light">Concept</h5>
                 <p class="projecten-txt">
-                    Een startende eenmanszaak kwam naar mij met de vraag om een
-                    website te ontwikkelen. Achteraf gezien heb ik voor hen een
-                    volledige huisstijl gemaakt. Zowel logo, visitekaartje als
-                    website werden in samenspraak ontwikkeld.
+                    Mijn nonkel heeft samen met zijn dochter een kinesistenpraktijk. Ze kwamen met de vraag om voor hen
+                    een website te ontwikkelen die ze ook zelf konden aanpassen bij het aannemen van nieuwe kinesisten
+                    of bij het afvallen van bestaande kinesisten. Dit was een perfect project om te gebruiken in grav.
                 </p>
                 <h5 class="titel-light">Designproces</h5>
-                <!-- Verschillende logo's/visitekaartjes laten zien -->
-                <figure>
-                    <img src="./images/proj-renowin-voorkant.png" alt="Renowin designproces"
-                        class="projecten-designimg " />
-                </figure>
-                <figure>
-                    <img src="./images/proj-renowin-voorkant.png" alt="Renowin designproces"
-                        class="projecten-designimg " />
-                </figure>
+                <!-- Verschillende delen van het proces laten zien; yaml files, dashboard, twig files, ... -->
+
             </div>
         </div>
     </section>
