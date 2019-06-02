@@ -45,7 +45,7 @@ include("./components/header.php");
                     integratie met bootstrap.
                 </p>
                 <h5 class="titel-dark">Responsive design</h5>
-                <img src="./images/Chenesse2.png" alt="Iphonescreen" class="responsive-img" />
+                <img src="./images/chenesse2.png" alt="Iphonescreen" class="responsive-img" />
             </div>
         </article>
     </section>

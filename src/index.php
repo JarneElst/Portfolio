@@ -7,9 +7,7 @@ include("./components/head.php");
     <div class="container">
         <header class="row home-img">
             <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light" id="navbar">
-                <a class="navbar-brand" href="./index.php">
-                    <img src="./images/logo website.png" alt="logo" class="navbar-logo">
-                </a>
+
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -33,7 +31,6 @@ include("./components/head.php");
             </nav>
             <article class="home-txt">
                 <h1>Jarne Elst</h1>
-                <h2>Ontdek meer!</h2>
                 <a href="#ik" class="home-link">
                     <button class="home-btn">
                         <i class="fas fa-angle-double-down fa-lg"></i>

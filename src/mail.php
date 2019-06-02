@@ -1,5 +1,5 @@
 <?php 
-
+   
     $name = $_POST['naam'];
     $from= $_POST['email'];
     $message= $_POST['onderwerp'];
@@ -9,9 +9,7 @@
     $subject = $_POST['onderwerp'];
     $mailheader = "From: $from \r\n";
     mail($receiver, $subject, $formcontent, $mailheader) or die ("Error!");
-?>
 
-<?php
 if ($_POST['human'] == '4') {
     if (mail ($receiver, $subject, $message, $from)) { 
         echo "Uw bericht werd verzonden!";
