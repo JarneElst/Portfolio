@@ -5,7 +5,6 @@ include("./components/header.php");
 
 ?>
 
-
 <main class="main">
     <section class="row">
         <article class="number-background-light col-12 col-md-1">
