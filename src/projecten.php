@@ -159,7 +159,7 @@ include("./components/header.php");
             <div class="projecten-box col-12 col-md-11">
                 <h1 class="titel-light">Kineco</h1>
                 <figure>
-                    <img src="./images/Proj-Logo Renowin.png" alt="Foto Chenesse" class="projecten-picture" />
+                    <img src="./images/Proj-Grav.png" alt="Foto Chenesse" class="projecten-picture" />
                 </figure>
                 <h5 class="titel-light">Concept</h5>
                 <p class="projecten-txt">

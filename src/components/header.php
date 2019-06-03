@@ -2,6 +2,7 @@
     <div class="container">
         <header class="row">
             <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light color" id="navbar">
+                <a class="navbar-brand" href="./index.php">Jarne Elst</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
