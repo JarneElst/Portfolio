@@ -278,6 +278,7 @@ a:link {
 .fa-download {
   margin-left: 15px;
 }
+
 .btn-download {
   border: 3px solid #025159;
   background-color: #17736a;
@@ -314,7 +315,6 @@ a:link {
   margin-left: 5px;
 }
 /*footer*/
-
 .color-footer {
   color: #f2f0eb !important;
   background-color: #024059;
@@ -360,9 +360,6 @@ a:link {
   padding: 2% 3% 5%;
 }
 /*donker thema*/
-.projecten-background {
-  background-color: #ffffff;
-}
 
 .projecten-picture {
   max-width: 500px;
@@ -392,10 +389,6 @@ h1.titel-light {
 .titel-light {
   color: #f28d35;
   margin-top: 60px;
-}
-
-.responsive-screen {
-  margin: 30px;
 }
 
 .responsive-img {
@@ -438,14 +431,6 @@ h1.titel-dark {
 }
 
 /*carousel komiktoneel*/
-.carousel-caption {
-  left: 30px !important;
-  right: 0px;
-  top: 70px;
-  bottom: 0px;
-  text-align: left;
-}
-
 .komik-container {
   position: relative;
   width: 70vw;
@@ -474,9 +459,11 @@ h1.titel-dark {
   opacity: 1;
 }
 
+/*Tekst blogpage */
 .blog-tekst {
   margin-bottom: 2rem;
 }
+
 /*Mediaqueries*/
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
@@ -538,6 +525,7 @@ h1.titel-dark {
   .navbar-nav > li:last-of-type {
     border-right: 1px solid #f2f0eb;
   }
+
   .navbar-nav {
     margin-right: 2px !important;
   }

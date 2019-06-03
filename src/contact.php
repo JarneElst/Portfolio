@@ -8,7 +8,7 @@ include("./components/header.php");
 
 <main class="contact-page">
     <section class="section">
-        <div class="form-row">
+        <article class="form-row">
             <div class="form-group col-md-4 txt-align">
                 <i class="fas fa-street-view fa-7x"> </i>
                 <p class="icon-txt">
@@ -31,7 +31,7 @@ include("./components/header.php");
                             style="color:#0d0d0d">linkedin/elstjarne</span></a>
                 </p>
             </div>
-        </div>
+        </article>
     </section>
     <section class="section">
         <h3>Get In Touch</h3>
