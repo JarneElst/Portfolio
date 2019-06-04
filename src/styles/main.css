@@ -430,7 +430,7 @@ h1.titel-dark {
   margin-top: 60px;
 }
 
-/*carousel komiktoneel*/
+/*design komiktoneel*/
 .komik-container {
   position: relative;
   width: 70vw;
@@ -457,6 +457,19 @@ h1.titel-dark {
 
 .komik-container:hover .komik-overlay {
   opacity: 1;
+}
+
+/*Carousel kineco */
+.carousel,
+.slide,
+.carousel-inner {
+  max-width: 70vw;
+  height: auto;
+}
+
+.carousel-image {
+  width: 70vw;
+  height: auto;
 }
 
 /*Tekst blogpage */

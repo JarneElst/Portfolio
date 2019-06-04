@@ -118,7 +118,7 @@ include("./components/header.php");
             </p>
             <h5 class="titel-dark">Designproces</h5>
             <figure>
-                <img src="./images/Proj-Olijftak.jpg" alt="Affiche Olijftak" class="projecten-designimg " />
+                <img src="./images/Proj-Olijftak.jpg" alt="Affiche Olijftak" class="projecten-designimg" />
             </figure>
             <p class="projecten-txt">
                 Om onze komst aan te kondingen werd er enkele weken op voorhand
@@ -159,8 +159,38 @@ include("./components/header.php");
                 of bij het afvallen van bestaande kinesisten. Dit was een perfect project om te gebruiken in grav.
             </p>
             <h5 class="titel-light">Designproces</h5>
-            <!-- Verschillende delen van het proces laten zien; yaml files, dashboard, twig files, ... -->
-
+            <p class="projecten-txt"><i>Keep it simple.</i> Met die gedachten in het achterhoofd begon ik met het
+                ontwerpen van deze website. Ik heb geprobeerd het dashboard zo simpel mogelijk te houden zodat
+                het invullen en aanpassen heel erg gemakkelijk kan verlopen in de toekomst. Zo heb ik alle
+                overbodige zaken verwijderd en het design simpel proberen. Daarnaast heb ik bijvoorbeeld met
+                behulp van placeholders getracht om de klant te helpen waar nodig om zo weinig mogelijk
+                ambiguïteit te creeëren.
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./images/projecten-grav-admin.png" alt="Grav niet-aangepaste pagina"
+                                class="carousel-image"> </div>
+                        <div class="carousel-item">
+                            <img src="./images/projecten-grav-kineco.png" alt="grav aangepast aan kineco"
+                                class="carousel-image"> </div>
+                        <div class="carousel-item">
+                            <img src="./images/projecten-grav-website.png" alt="Grav website kineco"
+                                class="carousel-image"></div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
         </article>
     </section>
 
