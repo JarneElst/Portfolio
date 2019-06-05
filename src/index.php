@@ -18,10 +18,10 @@ include("./components/head.php");
                             <a class="nav-link" href="./index.php">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link home-link" href="./blog.php">Blogpost</a>
+                            <a class="nav-link" href="./projecten.php">Projecten</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./projecten.php">Projecten</a>
+                            <a class="nav-link home-link" href="./blog.php">Blogpost</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./contact.php">Contact</a>
