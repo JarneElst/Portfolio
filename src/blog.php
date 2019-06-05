@@ -340,6 +340,40 @@ include("./components/header.php");
                     couple of hours and a talk about Tor later, we decided it was time to go home again.
                 </p>
             </article>
+            <h5 class="titel-dark"> Global Consent Manager </h5>
+            <article class="projecten-txt">
+                <p class="blog-tekst">
+                    Tomislav Janovic kwam ons meer uitleg geven over de Global Consent Manager. Deze global consent
+                    manager is ontstaat uit een samenwerking tussen Mozilla, de universiteit van Missouri en de
+                    universiteit van Nebraska, Omaha. Deze is ontstaan na het verstrengen van de GDPR. Zo moest er met
+                    de data van gebruikers op een veiligere manier omgegaan worden met oog op de privacy van de
+                    gebruikers. Uit onderzoek bleek zelfs dat gebruikers meer geëngageerd waren met het gebruik van een
+                    consent manager dan wanneer ze er geen gebruikten. Voor Mozilla, en andere internetbrowsers, is dit
+                    uiteraard belangrijke informatie om hun webbrowser zo goed mogelijk op te bouwen voor de gebruikers.
+                </p>
+                <p class="blog-tekst">
+                    De global consent manager is een add-on in Mozilla Firefox die ontwikkeld is om een gezondere
+                    omgeving te creëren die het bewustzijn van gebruikers omtrend het delen van (persoonlijke) data en
+                    informatie wil verhogen. Iedereen kent de pop-ups die verschijnen wanneer men een website opent om
+                    al dan niet akkoord te gaan met coockies en dergelijke. Iedereen klikt op ‘ik ga akkoord’, zonder
+                    daarbij echt akkoord te gaan of te weten met wat precies. Hier komt de global consent manager
+                    tussenbeide.
+                </p>
+                <p class="blog-tekst">
+                    Wanneer je een website bezoekt, zal deze als niet veilige website worden weergegeven. Je hoeft niet
+                    langer akkoord te gaan met de voorwaarden van de producenten, maar je krijgt wel een website die
+                    volledig is en je de volledig ervaring geeft. Als je de website op verschillende dagen bezoekt, zal
+                    deze na verloop van tijd als een veilige website gezien worden door de consent manager.
+                </p>
+                <p class="blog-tekst">
+                    Vanaf deze website als veilig gezien wordt, krijg je de keuze om toch akkoord te gaan met de
+                    voorwaarden (de pop-ups die we nu steeds krijgen) of om de website verder te blokkeren met de
+                    consent manager. Je krijgt met andere woorden eerst de volledige ervaring van een website te zien en
+                    de tijd om een website te leren kennen, alvorens je akkoord gaat met verschillende dingen waar je
+                    zelf niet helemaal het fijne van weet.
+                </p>
+
+            </article>
     </section>
 
     <section class="row">
@@ -433,6 +467,54 @@ include("./components/header.php");
                 </p>
             </article>
         </article>
+    </section>
+
+    <section class="row">
+        <article class="number-background-dark col-sm-12 col-md-1">
+            <p class="number-light">04</p>
+        </article>
+        <article class="projecten-box col-12 col-md-11">
+            <h1 class="titel-light">Digital First</h1>
+            <h5 class="titel-dark"> Blogpost Digital First </h5>
+
+            <article class="projecten-txt">
+                <p class="blog-tekst">
+                    Op donderdag 18 november zijn de leerlingen van 7CW met hun klastitularis hun kennis gaan verruimen
+                    op Digital First. Deze beurs in Brussel behandelt heel wat onderwerpen in verband met digitale
+                    marketing. Nadat we onze programma’s onderling hadden vergeleken, zijn we omstreeks 11 uur op zoek
+                    gegaan naar het hoofdpodium voor de eerste spreker. Hier werd al duidelijk dat Amazon voor startups
+                    een heel belangrijke rol kan spelen. Met hun verschillende programma’s zijn ze geschikt voor
+                    startups op uiteenlopende manieren. Na Amazon was het de beurt aan Microsoft, dat op zijn beurt meer
+                    uitleg gaf bij wat de relevantie van Artificial Intelligence (AI) is in ons dagelijkse leven en hoe
+                    zij het trachten te implementeren in hun producten/ diensten.
+                </p>
+                <p class="blog-tekst">
+                    Na het horen van deze twee sprekers, was het tijd om eens te kijken naar de verschillende
+                    beursstanden. Allerlei producten werden aangeboden en gepromoot. We werden meegenomen naar bedrijven
+                    die je eigen zaak een boost kunnen geven door op maat gemaakte aanpassingen, naar uitzendbedrijven
+                    tot organisaties die geschreven aantekeningen gemaakt op monitors digitaal kunnen sharen met leden
+                    uit de organisatie via een app. Telkens kregen we een uitgebreide waaier aan informatie, een
+                    antwoord op onze vragen en bijhorende flyers.
+                </p>
+                <p class="blog-tekst">
+                    Nadat we aan de Telenet-stand een heerlijke wafel hadden gegeten, was het tijd voor een nieuwe
+                    spreker op het hoofdpodium. Oracle bracht ons op hun beurt nog wat meer bij over AI en hoe deze onze
+                    toekomst kan veranderen. Zij gingen dieper in op hoe deze ons werk, onze thuis en onze vrije tijd in
+                    de toekomst zullen veranderen. Zo zullen we volgens hen meer vrije tijd krijgen doordat machines op
+                    het werk meer en kwalitatief beter werk kunnen verrichten.
+                </p>
+                <p class="blog-tekst">
+                    Na een voormiddag boordevol informatie bracht de middagpauze wat welverdiende rust. Na een
+                    versgebakken broodje ‘George’ was het tijd aan de laatste spreker op ons programma. Last but
+                    definitely not least bracht Jo Caudron naar mijn mening de beste speech van de dag. Hij vertelde aan
+                    de hand van dagdagelijkse voorbeelden hoe je je eigen bedrijf toekomstbestendig kon maken.
+                </p>
+                <p class="blog-tekst">
+                    Tot slot hebben we van de overige tijd nog gebruik gemaakt om eens rond te kijken bij de
+                    verschillende startups die hun bedrijf en bijhorende producten/ diensten kwamen promoten.
+                </p>
+
+            </article>
     </section>
 
 
