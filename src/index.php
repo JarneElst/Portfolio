@@ -47,7 +47,6 @@ include("./components/head.php");
                     <ul class="me-list">
                         <li>Jarne Elst</li>
                         <li>22 jaar</li>
-                        <li>Wielrennen</li>
                     </ul>
                     <p class="me-txt">
                         Voordat ik gestart ben aan de Se-n-Se opleiding Webontwikkeling en
@@ -58,13 +57,13 @@ include("./components/head.php");
                         hieruit haalde, voelde ik tijdens de stage dat dit werkveld niet
                         helemaal aansloot bij wat ik zocht. Daarom heb ik ervoor gekozen
                         om mijn tweede passie te volgen. Een passie die in de loop van de
-                        jaren aleen maar gegroeid was: Informatica. Meer bepaald het
+                        jaren alleen maar gegroeid was: Informatica. Meer bepaald het
                         ontwikkelen van websites en opzetten van netwerken was iets waar
-                        ik al jaren meer over wilde leren. Na vier jaar hogeschool wilde
-                        ik liefst een praktijkgerichte opleiding volgen die op één jaar de
+                        ik meer over wilde leren. Na vier jaar hogeschool wilde
+                        ik liefst een praktijkgerichte opleiding volgen die op één jaar tijd de
                         vaardigheden aanreikte die nodig zijn in het werkveld. De
                         opleiding Webontwikkeling & Netwerkbeheer op het
-                        Scheppersinstituut in Antwerpen & Deurne sloot hier perfect bij
+                        Scheppersinstituut in Antwerpen & Deurne sloot hier in mijn ogen perfect bij
                         aan.
                     </p>
                 </article>
@@ -124,7 +123,7 @@ include("./components/head.php");
                 </article>
 
                 <button class="btn-download">
-                    <a href="./Infographic CV 2018.pdf" download>
+                    <a href="./CV-ElstJarne-2019.pdf" download>
                         Download CV<i class="fas fa-download"></i>
                     </a>
                 </button>

@@ -165,7 +165,7 @@ include("./components/header.php");
                 overbodige zaken verwijderd en het design simpel proberen. Daarnaast heb ik bijvoorbeeld met
                 behulp van placeholders getracht om de klant te helpen waar nodig om zo weinig mogelijk
                 ambiguïteit te creeëren.
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="10000">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>

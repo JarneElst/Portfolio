@@ -148,7 +148,7 @@ nav > ul > li > a:hover,
 
 /* Hero image header */
 .home-img {
-  background-image: url("../images/dhe-haivan-1146718-unsplash.jpg");
+  background-image: url("../images/background.jpgx");
   background-repeat: none;
   background-position: center;
   background-size: cover;
@@ -228,7 +228,7 @@ a:link {
 
 .progress {
   background-color: #f28d35;
-  border: 1px solid #f25d27;
+  border: 1px solid #f28d35;
   height: 20px;
   margin-bottom: 30px;
 }
@@ -463,13 +463,29 @@ h1.titel-dark {
 .carousel,
 .slide,
 .carousel-inner {
-  max-width: 70vw;
+  margin-top: 50px;
+  width: 85vw;
   height: auto;
 }
 
 .carousel-image {
-  width: 70vw;
+  width: 85vw;
   height: auto;
+}
+
+.carousel-indicators li {
+  background-color: #17736a;
+}
+
+.carousel-indicators .active {
+  background-color: #f28d35;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='f28d35' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e");
+}
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='f28d35' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
 }
 
 /*Tekst blogpage */

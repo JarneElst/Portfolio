@@ -1,5 +1,10 @@
 <?php 
-   
+include('./components/head.php');
+include('./components/header.php');
+?>
+
+<?php
+
     $name = $_POST['naam'];
     $from= $_POST['email'];
     $message= $_POST['onderwerp'];
@@ -23,3 +28,4 @@ if ($_POST['human'] == '4') {
     }
 
 ?>
+<a class="btn-download" href="./contact.php"> Terug naar de website </a>

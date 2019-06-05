@@ -10,7 +10,6 @@
     </a>
 </footer>
 </div>
-</body>
 
 <!--Dit script genomen om de scroll te laten werken, het script in comment is het aanbevolen script voor deze versie bootstrap -->
 <script src="https://code.jquery.com/jquery-2.2.3.min.js" crossorigin="anonymous"></script>
@@ -75,5 +74,6 @@ $(document).ready(function() {
     }
 });
 </script>
+</body>
 
 </html>

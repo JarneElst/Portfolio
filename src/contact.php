@@ -4,6 +4,27 @@ include("./components/head.php");
 include("./components/header.php");
 
 
+    $name = $_POST['naam'];
+    $from= $_POST['email'];
+    $message= $_POST['onderwerp'];
+
+    $formcontent = "From: $name \n Message: $message";
+    $receiver = "jarne.elst@hotmail.com";
+    $subject = $_POST['onderwerp'];
+    $mailheader = "From: $from \r\n";
+    mail($receiver, $subject, $formcontent, $mailheader) or die ("Error!");
+
+if ($_POST['human'] == '4') {
+    if (mail ($receiver, $subject, $message, $from)) { 
+        echo "Uw bericht werd verzonden!";
+    }
+    else {
+        echo "Er is iets mis gegaan, kijk uw gegevens na en probeer nog een keer."; 
+    }
+    }
+    else if ($_POST['human'] != '4') {
+        echo "De anti spam vraag is foutief ingevuld. Vul het juiste antwoord in en probeer opnieuw."; 
+    }
 ?>
 
 <main class="contact-page">
@@ -59,7 +80,7 @@ include("./components/header.php");
                 </div>
                 <div class="form-group col-md-6">
                     <input type="tel" name="tel" class="form-control" id="Onderwerp" placeholder="Telefoonnummer"
-                        required minlength="8" maxlength="15" />
+                        minlength="8" maxlength="15" />
                 </div>
             </div>
             <div class="form-row">
