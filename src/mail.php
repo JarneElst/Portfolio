@@ -1,9 +1,7 @@
 <?php 
 include('./components/head.php');
 include('./components/header.php');
-?>
 
-<?php
 
     $name = $_POST['naam'];
     $from= $_POST['email'];
@@ -28,4 +26,17 @@ if ($_POST['human'] == '4') {
     }
 
 ?>
-<a class="btn-download" href="./contact.php"> Terug naar de website </a>
+
+<main class="main mail">
+    <section class="section">
+        <h3> Bedankt voor uw mail </h3>
+        <p> We bekijken uw mail zo snel mogelijk en voorzien een antwoord binnen de 2 werkdagen </p>
+        <button class="btn-download">
+            <a href="./contact.php"> Terug naar de website </a>
+        </button>
+
+    </section>
+</main>
+
+
+<?php include('./components/footer.php') ?>

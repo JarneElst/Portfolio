@@ -85,6 +85,10 @@ p {
   padding: 0px;
 }
 
+.mail {
+  min-height: 60vh;
+}
+
 /*navbar */
 header {
   background-color: #024059 !important;
@@ -103,6 +107,7 @@ a.nav-link {
   top: 0px;
   z-index: 99;
   background-color: #024059 !important;
+  color: #f1f0eb;
   transition-duration: 1s;
   transition-delay: 0.2s;
 }
@@ -148,10 +153,10 @@ nav > ul > li > a:hover,
 
 /* Hero image header */
 .home-img {
-  background-image: url("../images/background.jpgx");
+  background-image: url("../images/background.png");
+  background-size: cover;
   background-repeat: none;
   background-position: center;
-  background-size: cover;
   min-height: 100vh;
   max-height: 100vh;
   min-width: 100%;
@@ -163,7 +168,7 @@ nav > ul > li > a:hover,
   color: #f1f0eb;
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -227,7 +232,7 @@ a:link {
 }
 
 .progress {
-  background-color: #f28d35;
+  background-color: #f28d35d5;
   border: 1px solid #f28d35;
   height: 20px;
   margin-bottom: 30px;
@@ -262,16 +267,16 @@ a:link {
   width: 60%;
 }
 
-.adobexd {
-  width: 75%;
-}
-
-.netwerkbeheer {
-  width: 70%;
-}
-
-.helpdesk {
+.bootstrap {
   width: 80%;
+}
+
+.grav {
+  width: 50%;
+}
+
+.php {
+  width: 40%;
 }
 
 /*donwload knop cv */

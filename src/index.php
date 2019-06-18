@@ -1,5 +1,5 @@
 <?php 
-$title = portfolio;
+$title = "Jarne Elst";
 include("./components/head.php"); 
 ?>
 
@@ -7,7 +7,7 @@ include("./components/head.php");
     <div class="container">
         <header class="row home-img">
             <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light" id="navbar">
-                <a class="navbar-brand" href="./index.php">Jarne Elst</a>
+                <a class="navbar-brand" href="./index.php"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -15,16 +15,16 @@ include("./components/head.php");
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="./index.php">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link white" href="./index.php">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./projecten.php">Projecten</a>
+                            <a class="nav-link white" href="./projecten.php">Projecten</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link home-link" href="./blog.php">Blogpost</a>
+                            <a class="nav-link white" href="./blog.php">Blogpost</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./contact.php">Contact</a>
+                            <a class="nav-link white" href="./contact.php">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -91,6 +91,24 @@ include("./components/head.php");
                             aria-valuemax="100"></div>
                     </div>
 
+                    <h4 class="progress-label">Bootstrap</h4>
+                    <div class="progress">
+                        <div class="progress-bar bootstrap" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                    </div>
+
+                    <h4 class="progress-label">PHP</h4>
+                    <div class="progress">
+                        <div class="progress-bar php" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                    </div>
+
+                    <h4 class="progress-label">Grav</h4>
+                    <div class="progress">
+                        <div class="progress-bar grav" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                    </div>
+
                     <h4 class="progress-label">Illustrator</h4>
                     <div class="progress">
                         <div class="progress-bar illustrator" role="progressbar" aria-valuenow="50" aria-valuemin="0"
@@ -103,23 +121,6 @@ include("./components/head.php");
                             aria-valuemax="100"></div>
                     </div>
 
-                    <h4 class="progress-label">AdobeXD</h4>
-                    <div class="progress">
-                        <div class="progress-bar adobexd" role="progressbar" aria-valuenow="100" aria-valuemin="0"
-                            aria-valuemax="100"></div>
-                    </div>
-
-                    <h4 class="progress-label">Netwerkbeheer</h4>
-                    <div class="progress">
-                        <div class="progress-bar netwerkbeheer" role="progressbar" aria-valuenow="100" aria-valuemin="0"
-                            aria-valuemax="100"></div>
-                    </div>
-
-                    <h4 class="progress-label">Helpdesk</h4>
-                    <div class="progress">
-                        <div class="progress-bar helpdesk" role="progressbar" aria-valuenow="100" aria-valuemin="0"
-                            aria-valuemax="100"></div>
-                    </div>
                 </article>
 
                 <button class="btn-download">
