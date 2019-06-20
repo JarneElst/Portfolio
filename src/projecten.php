@@ -21,7 +21,7 @@ include("./components/header.php");
                 een schoonheidsspecialiste. Vanaf dag één heb ik deze website gelijktijdig opgebouwd met de lessen
                 om zo de nieuw opgedane kennis meteen te kunnen integreren.
                 Het was vooral de bedoeling om een overzicht te maken van de verschillende
-                behandelingen zodat de klanten overzicht konden zien van de grote verscheidenheid aan behandelingen.
+                behandelingen zodat de klanten een overzicht konden zien van de grote verscheidenheid aan behandelingen.
                 Er werd gevraagd om hier ook een overzicht te geven van de prijslijst om zo de klanten meteen te
                 informeren. Daarnaast was het vooral de bedoeling dat klanten eventuele
                 adresgegevens konden vinden.
@@ -32,13 +32,14 @@ include("./components/header.php");
                 <img src="./images/proj-chenesse-visite.jpeg" alt="Visitekaartje" class="projecten-designimg " />
             </figure>
             <p class="projecten-txt">
-                Omdat ik zelf met de vraag gekomen ben om deze website te maken, kwamer er van haar uit weinig
+                Omdat ik zelf met de vraag gekomen ben om deze website te maken, kwam er van haar uit weinig
                 verwachtingen. Wat betreft de inhoud had ze wel bepaalde wensen en verwachtingen, maar het design
                 mocht ik helemaal zelf invullen. Deze carte blanche heb ik opgevangen door te vertrekken vanaf het
                 reeds bestaande visitekaartje. De kleuren en het gebruikte lettertype werden al snel de kapstokken
                 van de website. Nadat ik een bijpassend lettertype had gevonden voor de gewone tekst en
-                accentkleuren had geselecteerd, kon ik beginnen met het design van de website. Grotendeels hong dit
-                af van de verschillende thema's die we op school zagen. In het begin enkel html en css, nadien de
+                accentkleuren had geselecteerd, kon ik beginnen met het design van de website. Grotendeels hing dit
+                af van de verschillende thema's die we op school zagen. In het begin bouwde ik deze website op met enkel
+                html en css, nadien maakte ik de
                 integratie met bootstrap.
             </p>
             <h5 class="titel-dark">Responsive design</h5>
@@ -58,11 +59,11 @@ include("./components/header.php");
             <h5 class="titel-light">Concept</h5>
             <p class="projecten-txt">
                 Onze klasgenoot Jesse speelt al enkele jaren toneel bij
-                toneelvereniging <i>"komiktoneel"</i>. Omdat wij tijdens de
+                toneelvereniging <i>"Komiktoneel"</i>. Omdat wij tijdens de
                 lessen webmarketing op zoek waren naar een project om een
                 volledig UX-proces mee af te leggen, leek het vernieuwen van de
-                komiktoneel website ons daarvoor het best geschikt. De bedoeling van de website is enerzijds het
-                geven van informatie aan bezoekers. Zo is het de bedoeling dat mensen de vorige en huidige stukken
+                Komiktoneel website ons daarvoor het best geschikt. De bedoeling van de website is enerzijds het
+                geven van informatie aan bezoekers. Zo is het de bedoeling dat bezoekers de vorige en huidige stukken
                 kunnen bekijken, foto's van de acteurs kunnen bekijken en meer te weten kunnen komen over de
                 toneelvereniging. Daarnaast kunnen bezoekers ook tickets reserveren via de website.
             </p>
@@ -77,13 +78,14 @@ include("./components/header.php");
                 Tijdens de ontwikkeling van deze website is het hele UX proces doorlopen.
                 Zo zijn we na het
                 afnemen van user interviews gestart met het opbouwen van
-                persona's. Zo konden we tijdens het ontwikkelen steeds aftoetsen of onze ideeën overeenstemde met de
+                persona's. Zo konden we tijdens het ontwikkelen steeds aftoetsen of onze ideeën overeenstemden met de
                 wensen en verwachtingen van onze doelgroep. Na het maken van onze persona's hebben we ons
                 geconcentreerd op het maken van een moodboard. Via websites en andere informatiebronnen zijn we op
                 zoek gegaan naar ideeën om de website vorm te geven. Dit moodboard heeft dan ook geleid tot onze
-                styleguid, onze leiddraad bij het ontwikkelen van de website. De volgende stap was dan het
+                styleguid, onze leidraad bij het ontwikkelen van de website. De volgende stap was dan het
                 ontwikkelen van mockups om zo een duidelijk overzicht te krijgen van de website op verschillende
-                platformen. Vanaf het moment deze mockups klaar waren, konden we starten met de ontwikkeling van de
+                schermgrotes. Vanaf het moment dat deze mockups klaar waren, konden we starten met de ontwikkeling van
+                de
                 website.
             </p>
             <h5 class="titel-light">Before vs After</h5>
@@ -108,13 +110,13 @@ include("./components/header.php");
             </figure>
             <h5 class="titel-dark">Wat?</h5>
             <p class="projecten-txt">
-                Tijdens dit schooljaar zijn we voor het vak helpdesk meermaals
-                naar de olijftak geweest. De olijftak is een onderdeel van het zorgbedrijf te Antwerpen en is een
+                Tijdens dit schooljaar zijn we voor het vak helpdesk meerdere keren
+                naar de Olijftak geweest. De Olijftak is een onderdeel van het zorgbedrijf te Antwerpen en is een
                 soort van woon-en zorgcentrum. Er zijn zowel mensen die hier residentieel verblijven als mensen die
                 doorheen de dag binnen en buiten lopen. Het was de bedoeling om enerzijds de
                 ouderen iets nieuws te leren over de digitale wereld. Anderzijds
                 wilden we hen ook helpen met de moeilijkheden die zij
-                ondervinden met computers, tablets en smartphones.
+                ondervinden met computers, tablets en smartphones door het beantwoorden van hun vragen.
             </p>
             <h5 class="titel-dark">Designproces</h5>
             <figure>
@@ -122,19 +124,19 @@ include("./components/header.php");
             </figure>
             <p class="projecten-txt">
                 Om onze komst aan te kondingen werd er enkele weken op voorhand
-                een affiche opgemaakt en uitgehangen. Het ontwerpen van deze
+                een affiche gemaakt en uitgehangen. Het ontwerpen van deze
                 affiches was voor mij iets helemaal anders dan wat ik tot dan
                 toe gedaan had. Het ging hier vooral over duidelijk zijn zonder
                 te veel bijkomende informatie te geven. De allereerste poster
                 die werd uitgehangen was uiteindelijk een poster die ik zelf had
                 ontwikkeld. Na slechts enkele maanden deze richting gevogld te
-                hebben, was dit voor mij een grote erkenning.
+                hebben, was dit voor mij een fijne erkenning.
             </p>
             <h5 class="titel-dark">Ervaring</h5>
             <p class="projecten-txt">
                 Ik vond het persoonlijk heel erg fijn om deze mensen te kunnen
                 helpen. Dit sloot natuurlijk ook mooi aan met mijn vooropleiding
-                wat maakte dat ik mij meteen comfortabel voelde om te werken met
+                wat maakte dat ik mij meteen comfortabel voelde in het werken met
                 en voor deze doelgroep. Hier is ook mijn interesse in het gebied
                 rond helpdesk ontstaan, iets wat de maanden nadien enkel
                 gegroeid is en een weg die ik uiteindelijk ook voor stage ben
@@ -156,30 +158,32 @@ include("./components/header.php");
             <p class="projecten-txt">
                 Mijn nonkel heeft samen met zijn dochter een kinesistenpraktijk. Ze kwamen met de vraag om voor hen
                 een website te ontwikkelen die ze ook zelf konden aanpassen bij het aannemen van nieuwe kinesisten
-                of bij het afvallen van bestaande kinesisten. Dit was een perfect project om te gebruiken in grav.
+                of bij het afvallen van bestaande kinesisten. Dit was een perfect project om te gebruiken voor het vak
+                webontwikkeling. Daar waren we namelijk op zoek naar een website om te gebruiken met het content
+                management systeem Grav.
             </p>
             <h5 class="titel-light">Designproces</h5>
             <p class="projecten-txt"><i>Keep it simple.</i> Met die gedachten in het achterhoofd begon ik met het
                 ontwerpen van deze website. Ik heb geprobeerd het dashboard zo simpel mogelijk te houden zodat
-                het invullen en aanpassen heel erg gemakkelijk kan verlopen in de toekomst. Zo heb ik alle
-                overbodige zaken verwijderd en het design simpel proberen. Daarnaast heb ik bijvoorbeeld met
+                het invullen en aanpassen heel erg gemakkelijk kan verlopen in de toekomst. Zo heb ik bijvoorbeeld alle
+                overbodige zaken verwijderd. Daarnaast heb ik bijvoorbeeld met
                 behulp van placeholders getracht om de klant te helpen waar nodig om zo weinig mogelijk
                 ambiguïteit te creeëren.
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="10000">
                     <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                     </ol>
                     <div class="carousel-inner">
+                        <div class="carousel-item">
+                            <img src="./images/projecten-grav-kineco.png" alt="template aangepast aan kineco"
+                                class="carousel-image"> </div>
                         <div class="carousel-item active">
-                            <img src="./images/projecten-grav-admin.png" alt="Grav niet-aangepaste pagina"
+                            <img src="./images/projecten-grav-kinesisten.png" alt="Grav kinesisten pagina"
                                 class="carousel-image"> </div>
                         <div class="carousel-item">
-                            <img src="./images/projecten-grav-kineco.png" alt="grav aangepast aan kineco"
-                                class="carousel-image"> </div>
-                        <div class="carousel-item">
-                            <img src="./images/projecten-grav-website.png" alt="Grav website kineco"
+                            <img src="./images/projecten-grav-kine.png" alt="Grav website kineco"
                                 class="carousel-image"></div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -206,13 +210,13 @@ include("./components/header.php");
             <h5 class="titel-dark">Waarom deze stageplaats?</h5>
             <p class="projecten-txt">
                 Tijdens het volgen van het vak helpdesk, de sessies in de
-                olijftak en tijdens mijn nieuwe studentenjob bij beego heb ik
-                geleerd dat mensen helpen met hun computerproblemen iets was
+                Olijftak en tijdens mijn nieuwe studentenjob bij Beego heb ik
+                geleerd dat mensen helpen met hun computerproblemen iets is
                 waar ik erg veel voldoening uit haal. Omdat ik er ook van
                 overtuigd ben dat je op een helpdesk veel verschillende
                 moeilijkheden krijgt en daardoor veel bijleert op relatief korte
                 tijd, vond ik dit de geschikte stageplaats voor mij. Dat er een
-                stageplaats die zo nauw aansloot bij mijn verwachtingen zich ook
+                stageplaats was die zo nauw aansloot bij mijn verwachtingen zich ook
                 in mijn eigen regio bevond, maakte deze stageplaats des te
                 interessanter.
             </p>
@@ -239,10 +243,7 @@ include("./components/header.php");
             afsluiten met een contractaanbieding op zak.
         </article>
     </section>
-
-
 </main>
-
 
 <?php 
     include("./components/footer.php");

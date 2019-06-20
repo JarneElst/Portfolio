@@ -44,20 +44,21 @@ include("./components/head.php");
                 <h3 class="col-12">Wie ben ik?</h3>
 
                 <article class="col-md-12 col-lg-6">
-                    <ul class="me-list">
-                        <li>Jarne Elst</li>
-                        <li>22 jaar</li>
-                    </ul>
                     <p class="me-txt">
-                        Voordat ik gestart ben aan de Se-n-Se opleiding Webontwikkeling en
+                        Ik ben Jarne Elst, 22 jaar oud en.. uh? 22 jaar? En nu pas in een Se-n-Se richting?
+                        Klopt.
+                    </p>
+                    <p class="me-txt">Voor ik gestart ben aan de opleiding Webontwikkeling en
                         Netwerkbeheer, heb ik op Thomas More Antwerpen een
                         bacheloropleiding Toegepaste Psychologie gevolgd. Ik ben in juni
                         2018 afgestudeerd als psychologisch consulent in het school-en
                         pedagogische werkveld. Ondanks het plezier en de voldoening die ik
                         hieruit haalde, voelde ik tijdens de stage dat dit werkveld niet
-                        helemaal aansloot bij wat ik zocht. Daarom heb ik ervoor gekozen
+                        helemaal aansloot bij wat ik zocht. </p>
+                    <p class="me-txt">
+                        Daarom heb ik ervoor gekozen
                         om mijn tweede passie te volgen. Een passie die in de loop van de
-                        jaren alleen maar gegroeid was: Informatica. Meer bepaald het
+                        jaren alleen maar gegroeid is: informatica. Meer bepaald het
                         ontwikkelen van websites en opzetten van netwerken was iets waar
                         ik meer over wilde leren. Na vier jaar hogeschool wilde
                         ik liefst een praktijkgerichte opleiding volgen die op één jaar tijd de

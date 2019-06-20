@@ -186,6 +186,12 @@ nav > ul > li > a:hover,
 .home-link {
   color: #f1f0eb;
 }
+
+.img-proclamatie {
+  margin: 30px 40px;
+  width: 450px;
+}
+
 /* Opmaak icon hero image */
 .fa-angle-double-down {
   color: #f1f0eb;
@@ -794,6 +800,7 @@ h1.titel-dark {
     margin-top: 10%;
     width: 100%;
   }
+
   .img-proclamatie {
     margin: 0px 40px;
     width: 400px;
