@@ -19,12 +19,9 @@ include("./components/header.php");
             <p class="projecten-txt">
                 Één van de projecten waaraan ik gewerkt heb naast school, is het ontwikkelen van deze website voor
                 een schoonheidsspecialiste. Vanaf dag één heb ik deze website gelijktijdig opgebouwd met de lessen
-                om zo de nieuw opgedane kennis meteen te kunnen integreren.
-                Het was vooral de bedoeling om een overzicht te maken van de verschillende
-                behandelingen zodat de klanten een overzicht konden zien van de grote verscheidenheid aan behandelingen.
-                Er werd gevraagd om hier ook een overzicht te geven van de prijslijst om zo de klanten meteen te
-                informeren. Daarnaast was het vooral de bedoeling dat klanten eventuele
-                adresgegevens konden vinden.
+                om zo de nieuw opgedane kennis meteen te kunnen integreren. Het grootste doel van de website was om
+                klanten een overzicht te geven van de grote verscheidenheid aan behandelingen. Daarnaast werd gevraagd
+                of we klanten ook meteen konden informeren over de prijzen.
             </p>
 
             <h5 class="titel-dark">Designproces</h5>
@@ -37,7 +34,7 @@ include("./components/header.php");
                 mocht ik helemaal zelf invullen. Deze carte blanche heb ik opgevangen door te vertrekken vanaf het
                 reeds bestaande visitekaartje. De kleuren en het gebruikte lettertype werden al snel de kapstokken
                 van de website. Nadat ik een bijpassend lettertype had gevonden voor de gewone tekst en
-                accentkleuren had geselecteerd, kon ik beginnen met het design van de website. Grotendeels hing dit
+                accentkleuren had geselecteerd, kon ik beginnen met het design van de website. Dit hing grotendeels
                 af van de verschillende thema's die we op school zagen. In het begin bouwde ik deze website op met enkel
                 html en css, nadien maakte ik de
                 integratie met bootstrap.
@@ -110,17 +107,15 @@ include("./components/header.php");
             </figure>
             <h5 class="titel-dark">Wat?</h5>
             <p class="projecten-txt">
-                Tijdens dit schooljaar zijn we voor het vak helpdesk meerdere keren
-                naar de Olijftak geweest. De Olijftak is een onderdeel van het zorgbedrijf te Antwerpen en is een
-                soort van woon-en zorgcentrum. Er zijn zowel mensen die hier residentieel verblijven als mensen die
-                doorheen de dag binnen en buiten lopen. Het was de bedoeling om enerzijds de
-                ouderen iets nieuws te leren over de digitale wereld. Anderzijds
-                wilden we hen ook helpen met de moeilijkheden die zij
-                ondervinden met computers, tablets en smartphones door het beantwoorden van hun vragen.
+                Doorheen het schooljaar zijn we voor het vak helpdesk meermaals naar de olijftak geweest. De olijftak is
+                een onderdeel van het zorgbedrijf te Antwerpen en is een soort van woon-en zorgcentrum. Er zijn zowel
+                mensen die hier residentieel verblijven, als mensen die voor dagopvang komen. Het was enerzijds de
+                bedoeling om de ouderen iets nieuws te leren over de digitale wereld. Anderzijds wilden we hen helpen
+                met de moeilijkheden die zij ondervinden met computers, tablets en smartphones.
             </p>
             <h5 class="titel-dark">Designproces</h5>
             <figure>
-                <img src="./images/Proj-Olijftak.jpg" alt="Affiche Olijftak" class="projecten-designimg" />
+                <img src="./images/olijftak-Jarne.jpg" alt="Foto in de olijftak" class="projecten-designimg" />
             </figure>
             <p class="projecten-txt">
                 Om onze komst aan te kondingen werd er enkele weken op voorhand
@@ -134,13 +129,11 @@ include("./components/header.php");
             </p>
             <h5 class="titel-dark">Ervaring</h5>
             <p class="projecten-txt">
-                Ik vond het persoonlijk heel erg fijn om deze mensen te kunnen
-                helpen. Dit sloot natuurlijk ook mooi aan met mijn vooropleiding
-                wat maakte dat ik mij meteen comfortabel voelde in het werken met
-                en voor deze doelgroep. Hier is ook mijn interesse in het gebied
-                rond helpdesk ontstaan, iets wat de maanden nadien enkel
-                gegroeid is en een weg die ik uiteindelijk ook voor stage ben
-                ingeslagen.
+                Ik vond het persoonlijk heel erg fijn om deze mensen te kunnen helpen. Het sloot natuurlijk ook mooi aan
+                bij mijn vooropleiding. Wat maakte dat ik mij meteen comfortabel voelde om te werken met, en voor deze
+                doelgroep. Hier is ook mijn interesse in het gebied rond helpdesk ontstaan. Iets wat de maanden nadien
+                enkel gegroeid is en ertoe heeft geleid dat ik ervoor heb gekozen om stage te doen in deze tak van de
+                opleiding.
             </p>
         </article>
     </section>
